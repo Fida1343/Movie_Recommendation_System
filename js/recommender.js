@@ -46,5 +46,5 @@ function getRecommendations(selectedMovieTitle){
     });
 
   distances.sort((a, b) => a.distance - b.distance);
-  return distances.slice(0, 6);
+  return distances.slice(0, 4);
 }
