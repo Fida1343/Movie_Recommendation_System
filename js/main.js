@@ -4,17 +4,17 @@ function loadMovies(){
   const movieSelect=document.getElementById("movieSelect");
 
   movies.forEach(movie => {
-    const option=document.createElement("option");
-    option.value=movie.title;
-    option.textContent=movie.title;
+    const option = document.createElement("option");
+    option.value = movie.title;
+    option.textContent = movie.title;
     movieSelect.appendChild(option);
   });
 }
 
-function recommendMovies(){
-  const movieSelect=document.getElementById("movieSelect");
-  const selectedMovie=movieSelect.value;
-  if(selectedMovie===""){
+function goToResults(){
+  const movieSelect = document.getElementById("movieSelect");
+  const selectedMovie = movieSelect.value;
+  if(selectedMovie === ""){
     alert("Please select a movie!");
     return;
   }
