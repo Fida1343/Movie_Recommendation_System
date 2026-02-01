@@ -65,12 +65,6 @@ Movie_Recommendation_System/
 └── README.md              # Project documentation
 ```
 
-## 📸 Screenshots
-### Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Add+Your+Screenshot+Here)
-### Recommendations Page
-![Recommendations](https://via.placeholder.com/800x400?text=Add+Your+Screenshot+Here)
-
 ## 🔮 Future Enhancements
 - [ ] Add user ratings and reviews
 - [ ] Implement collaborative filtering
