@@ -94,12 +94,11 @@ nav a.active {
 }
 
 .meta {
-  display: flex;
   gap: 12px;
   margin-bottom: 20px;
   color: #cccccc;
+  align-items: center;
 }
-
 .badge {
   border: 1px solid #444;
   padding: 4px 10px;
